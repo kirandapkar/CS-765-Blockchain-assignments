@@ -1,0 +1,16 @@
+README file
+
+File 1: config.txt
+Add ip address and port of seed space seperated. Every seed should be on a different line.
+IP Address is localhost for this assignment purpose.
+
+File 2: seed.py
+On running this file in terminal ( python3 seed.py), all seeds in config file will be initiated on different threads.
+Peer Addition and Dead Node reporting messages are printed on screen as well as outputseed.txt file
+
+File 3: peer.py
+On running this file in terminal ( python3 peer.py), a prompt will ask for port number (host is assumed to be localhost)
+A peer will be generated and it will output the seeds it has connected to. Logs are printed on screen as well as outputpeer.txt file.
+
+File 4 and 5 : outputseed.txt and outputpeer.txt 
+These files are automatically generated if not present. These files are only opened for appending logs (initial stray data may be removed as and when required).
